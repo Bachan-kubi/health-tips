@@ -1,13 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import Break from "../Break/Break";
 import './Summary.css'
 
 const Summary = (props) => {
-  const [breakTime, setBreakTime] = useState('')
-
-  const handleBreak=()=>{
-    setBreakTime('breakTime')
-  }
   return (
     <div className="summary">
       <div className="title">
@@ -33,7 +28,8 @@ const Summary = (props) => {
             <h4 className="details">Excersice Time: {props.time}</h4>
             <h4 className="completed">Completed!</h4>
         </div>
-        <Break handleBreak={handleBreak}/>
+        {/* <Break /> */}
+        <Break />
     </div>
   );
 };

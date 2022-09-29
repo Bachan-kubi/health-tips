@@ -2,7 +2,6 @@ import React from 'react';
 import './Tip.css'
 
 const Tip = ({tip, handleAddList}) => {
-    console.log(handleAddList)
     const {picture, name, description, time, age} = tip;
     return (
         <div className='info'>
