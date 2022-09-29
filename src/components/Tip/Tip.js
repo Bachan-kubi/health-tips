@@ -9,7 +9,7 @@ const Tip = ({tip, handleAddList}) => {
             <h3>{name}</h3>
             <p>{description}</p>
             <p>Age: {age}</p>
-            <h4>Time: {time}</h4>
+            <h4>Time: {time} m</h4>
             <div>
                 <button onClick={()=>handleAddList(tip)} className='btn-add'>Add To List</button>
             </div>
