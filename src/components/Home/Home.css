@@ -10,6 +10,11 @@
     gap: 10px;
 }
 @media (max-width: 576px) {
+    .home{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -17,6 +22,11 @@
     }
 }
 @media (min-width: 576px) and (max-width: 768px) {
+    .home{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
     .container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

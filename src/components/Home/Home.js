@@ -31,9 +31,9 @@ const Home = () => {
                     />)
             }
         </div>
-        <div>
+        {/* <div>
           <Narration />
-        </div>
+        </div> */}
       </div>
       <div>
         <Summary time= {time}/>
