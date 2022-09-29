@@ -1,0 +1,12 @@
+.quizes{
+    padding: 10px;
+    background-color: rgb(247, 174, 148);
+    margin-top: 10px;
+}
+.quizes h3{
+    text-align: center;
+}
+.q{
+    text-align: center;
+    color: coral;
+}

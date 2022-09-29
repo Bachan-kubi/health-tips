@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Narration from "../Narration/Narration";
 import Summary from "../Summary/Summary";
 import Tip from "../Tip/Tip";
 import './Home.css'
@@ -29,6 +30,9 @@ const Home = () => {
                     key={tip.id}
                     />)
             }
+        </div>
+        <div>
+          <Narration />
         </div>
       </div>
       <div>
