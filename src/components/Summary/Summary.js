@@ -25,11 +25,10 @@ const Summary = (props) => {
         </div>
         <div>
             <h3>Exersice Details</h3>
-            <h4 className="details">Excersice Time: {props.time}</h4>
+            <h4 className="details">Excersice Time: {props.time} m</h4>
         </div>
         <Break />
         <div>
-            <h3>Exersice Details</h3>
             <h4 className="completed">Completed!</h4>
         </div>
     </div>
