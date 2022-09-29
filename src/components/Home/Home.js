@@ -20,8 +20,7 @@ const Home = () => {
   return (
     <div className="home">
       <div>
-        <h2>Watch Todays Exersice!</h2>
-        <h3>Tips:{tips.length}</h3>
+        <h2>Watch Todays Exersice: {tips.length}</h2>
         <div className="container">
             {
                 tips?.map(tip=><Tip 
