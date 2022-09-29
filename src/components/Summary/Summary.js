@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Summary = (props) => {
-  const notify = () => toast("Wow so easy!");
+  const notify = () => toast("Weldone! You have Completed!");
   return (
     <div className="summary">
       <div className="title">
