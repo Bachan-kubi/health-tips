@@ -2,3 +2,14 @@
     color: coral;
     font-size: 35px;
 }
+.title-header img{
+    width: 80px;
+    height: 60px;
+}
+.title-header{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}

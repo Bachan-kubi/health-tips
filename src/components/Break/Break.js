@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import { addToLocalStorage } from '../Utilities/Localstore';
+import React, {useState} from 'react';
 import './Break.css';
 
 const Break = () => {
     const [breakTime, setBreakTime] = useState(0);
-
+    
     return (
         <div>
             <div>
@@ -17,7 +16,7 @@ const Break = () => {
                 <button onClick={()=>setBreakTime(50)} className="break-items">50m</button>
             </div>
             <div>
-                <h4 onClick={addToLocalStorage} className="details">Break Time: {breakTime} m </h4>
+                <h4 className="details">Break Time: {breakTime} m </h4>
             </div>
         </div>
         </div>
